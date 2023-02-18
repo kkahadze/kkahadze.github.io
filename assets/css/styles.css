@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background-color: #eeeeee;
+  color: #303030;
+  font-family: "Asap", sans-serif;
+}
+
+.toggle {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.lang {
+  margin: 0 auto;
+}
+
+.button_lang {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.25em 0em;
+  border-radius: 10px;
+  width: 5em;
+  transition: 0.25s ease;
+}
+
+.button_lang:hover {
+  background: #b5d6b2;
+  transition: 0.25s ease;
+}
+
+.current_lang {
+  background: #b5d6b2;
+}
+
+.translation {
+  text-align: center;
+  margin: 0.5em;
+}
+
+.english {
+  font-family: "Asap", sans-serif;
+}
+
+.georgian {
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 1.5em;
+}
