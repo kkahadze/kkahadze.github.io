@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Konstantine Kahadze # the website title (if blank, full name will be used instead)
 first_name: Konstantine
 middle_name: A.
 last_name: Kahadze
@@ -131,7 +131,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
